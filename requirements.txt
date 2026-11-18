@@ -1,0 +1,7 @@
+# torch ставится отдельно с CUDA-сборкой (см. RUN.md)
+transformers>=5.0
+peft>=0.15
+accelerate>=1.0
+bitsandbytes>=0.45
+datasets>=2.18
+tqdm>=4.66

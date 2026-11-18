@@ -1,0 +1,7 @@
+run,n,accuracy,macro_f1,json_ok
+inf_bf16_8bit/raw_8bit_all,360,0.7583,0.7628,3.0
+inf_bf16_base/raw_bf16_all,360,0.7611,0.7657,3.0
+inf_bf16_nf4/raw_nf4_all,360,0.7722,0.774,3.0
+inf_nf4_8bit/raw_8bit_all,360,0.7278,0.7317,2.975
+inf_nf4_base/raw_bf16_all,360,0.7306,0.7368,2.975
+inf_nf4_nf4/raw_nf4_all,360,0.7667,0.7697,3.0

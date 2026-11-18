@@ -1,0 +1,15 @@
+{
+  "mode": "nf4",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "r": 16,
+  "alpha": 16,
+  "epochs": 3.0,
+  "batch": 2,
+  "grad_accum": 8,
+  "lr": 0.0002,
+  "seed": 42,
+  "train_time_s": 1623.209,
+  "train_steps": 564,
+  "peak_mem_gb": 12.447,
+  "gpu": "NVIDIA GeForce RTX 4090"
+}

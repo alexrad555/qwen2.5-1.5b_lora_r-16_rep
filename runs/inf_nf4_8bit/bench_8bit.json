@@ -1,0 +1,26 @@
+{
+  "quant": "8bit",
+  "batches": {
+    "1": {
+      "n": 360,
+      "time_s": 1996.148,
+      "throughput_tok_s": 6.23,
+      "peak_mem_mb": 1869.9
+    },
+    "8": {
+      "n": 360,
+      "time_s": 561.823,
+      "throughput_tok_s": 22.15,
+      "peak_mem_mb": 2191.2
+    },
+    "32": {
+      "n": 360,
+      "time_s": 182.662,
+      "throughput_tok_s": 65.59,
+      "peak_mem_mb": 3388.2
+    }
+  },
+  "latency_ms": 5544.86,
+  "adapter": "runs\\nf4\\adapter",
+  "n_test": 360
+}

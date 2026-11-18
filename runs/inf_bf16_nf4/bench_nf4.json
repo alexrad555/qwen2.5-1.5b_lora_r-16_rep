@@ -1,0 +1,26 @@
+{
+  "quant": "nf4",
+  "batches": {
+    "1": {
+      "n": 360,
+      "time_s": 733.718,
+      "throughput_tok_s": 16.36,
+      "peak_mem_mb": 1231.4
+    },
+    "8": {
+      "n": 360,
+      "time_s": 177.278,
+      "throughput_tok_s": 67.7,
+      "peak_mem_mb": 1583.4
+    },
+    "32": {
+      "n": 360,
+      "time_s": 78.563,
+      "throughput_tok_s": 152.81,
+      "peak_mem_mb": 2787.4
+    }
+  },
+  "latency_ms": 2038.11,
+  "adapter": "runs\\bf16\\adapter",
+  "n_test": 360
+}

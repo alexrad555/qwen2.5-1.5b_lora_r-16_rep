@@ -1,0 +1,26 @@
+{
+  "quant": "8bit",
+  "batches": {
+    "1": {
+      "n": 360,
+      "time_s": 1923.465,
+      "throughput_tok_s": 6.25,
+      "peak_mem_mb": 1869.8
+    },
+    "8": {
+      "n": 360,
+      "time_s": 489.776,
+      "throughput_tok_s": 24.55,
+      "peak_mem_mb": 2191.2
+    },
+    "32": {
+      "n": 360,
+      "time_s": 185.016,
+      "throughput_tok_s": 65.0,
+      "peak_mem_mb": 3388.2
+    }
+  },
+  "latency_ms": 5342.96,
+  "adapter": "runs\\bf16\\adapter",
+  "n_test": 360
+}
